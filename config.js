@@ -46,8 +46,8 @@ global.psaweria = 'https://bit.ly/3eggcxd'
 /*============== NOMOR ==============*/
 global.nomorbot = '-'
 global.nomorown = '6282195322106'
-global.namebot = 'WudysoftBOT'
-global.nameown = 'Owner-Wudysoft'
+global.namebot = 'HinataBot'
+global.nameown = 'Wudysoft'
 
 
 /*============== STAFF ==============*/
@@ -68,7 +68,7 @@ global.APIs = { // API Prefix
   zahir: 'https://zahirr-web.herokuapp.com',
   lol: 'https://api.lolhuman.xyz',
   dhnjing: 'https://dhnjing.xyz',
-  neoxr: 'https://neoxr-api.herokuapp.com',
+  neoxr:  'https://api.neoxr.my.id',
   zeks: 'https://api.zeks.me',
   bear: 'https://saipulanuar.ga',
   pencarikode: 'https://pencarikode.xyz',
@@ -76,25 +76,25 @@ global.APIs = { // API Prefix
   amel: 'https://melcanz.com',
   hardianto: 'https://hardianto.xyz',
   botstyle: 'https://botstyle-api.herokuapp.com',
-adiisus: 'https://adiixyzapi.herokuapp.com',
+  adiisus: 'https://adiixyzapi.herokuapp.com',
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
   kanx: 'https://kannxapi.herokuapp.com/'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'cristian9407',
+  'https://api.xteam.xyz': 'HIRO',
   'https://anabotofc.herokuapp.com/': 'AnaBot',
-  'https://api.lolhuman.xyz': 'Xynoz',
+  'https://api.lolhuman.xyz': 'ed78c137a46873c5b8e5fe3b',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://saipulanuar.ga/': 'zahirgans',
-  'https://api.zeks.me': 'apivinz',
+  'https://api.zeks.xyz': 'apivinz',
   'https://pencarikode.xyz': 'pais',
-  'https://melcanz.com': 'wEDTUsWj',
-  'https://neoxr-api.herokuapp.com': 'yntkts',
+  'https://melcanz.com': 'manHkmst',
+  'https://api.neoxr.my.id' : '5VC9rvNx',
   'https://server-api-rey.herokuapp.com': 'apirey',
   'https://botstyle-api.herokuapp.com': 'Eyar749L',
   'https://hardianto.xyz': 'hardianto',
-  'https://leyscoders-api.herokuapp.com': 'dappakntlll'
+  'https://leyscoders-api.herokuapp.com': 'MIMINGANZ'
 }
 
 /*============== APIKEY ================*/
@@ -102,14 +102,14 @@ global.bear = 'VBkM7rbU'
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'WudysoftBOT | By Owner-Wudysoft' //Main Watermark
-global.wm2 = 'WudysoftBOT'
-global.wm3 = 'WudysoftBOTV5 | By Wudysoft'
+global.wm = 'HinataBot | By Wudysoft' //Main Watermark
+global.wm2 = 'HinataBot'
+global.wm3 = 'HinataBot | By Wudysoft'
 global.botdate = `⻝ Tanggal: ${week} ${date}\n⻝ Waktu: ${wktuwib}`
 global.bottime = `⻝ W A K T U : ${wktuwib}`
-global.titlebot = `WudysoftBOT | ʙʏ ${global.nameown}`
-global.author = 'Owner-Wudysoft' 
-global.packname = 'By WudysoftBOT'
+global.titlebot = `HinataBot | ʙʏ ${global.nameown}`
+global.author = 'Wudysoft' 
+global.packname = 'By HinataBot'
 global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
 global.ultahowner = 'Oktober 21 2022' //Ganti Ultah Lu Disini
 
@@ -123,10 +123,10 @@ global.thumbs = ['https://telegra.ph/file/7db49c83fd106a60741cd.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 global.thumbBanned = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
 global.thumbWarn = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
-global.botintro = 'Hallo, Kenalin saya WudysoftBOT Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh *Owner-Wudysoft✓* Saya di rilis pada tanggal\n🗓 ️_23/11/2022_'
+global.botintro = 'Hallo, Kenalin saya HinataBot Saya akan membantu Anda kapan pun & Dimana pun, Saya asisten bot WhatsApp yang di buat oleh *Wudysoft ✓* Saya di rilis pada tanggal\n🗓 ️_23/11/2022_'
 global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
 /*============== GLOBAL BIO ==============*/
-global.nameowner = 'Wudysoft✓'
+global.nameowner = 'Wudysoft ✓'
 global.umurowner = '15'
 global.asalowner = 'Jatim, Trenggalek'
 global.nomorowner = 'wa.me/6282195322106'
