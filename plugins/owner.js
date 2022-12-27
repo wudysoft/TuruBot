@@ -41,7 +41,7 @@ let cap = `Hay kak @${await m.sender.split('@')[0]}, itu nomor ownerku jangan di
   let buttonMessage= {
 'document':{'url':'https://youtube.com/channel/UC1oSMQCd3XKVxYwSh4RE2Nw'},
 'mimetype':global.ddocx,
-'fileName':'「 RullSenpai 」',
+'fileName':'「 Wudysoft 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'contextInfo':{

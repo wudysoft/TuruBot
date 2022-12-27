@@ -39,40 +39,45 @@ let tags = {
   '': 'No Category',
 }
 const defaultMenu = {
-  before: `┏━━━ꕥ〔 *llı INFO USER ıll* 〕ꕥ━⬣ 
-┃✾ *Nama:* %name
-┃✾ *Tag:* %name
-┃✾ *Status:* %prems
-┃✾ *Limit:* %limit
-┃✾ *Role:* %role
-┃✾ *Level:* %level [ %xp4levelup Xp For Levelup]
-┃✾ *Xp:* %exp / %maxexp
-┃✾ *Total Xp:* %totalexp
-┗━ꕥ
-┏━ꕥ〔 *llı TODAY ıll* 〕ꕥ━⬣
-┃✾ *Hari:* %week %weton
-┃✾ *Tanggal:* %date
-┃✾ *Jam:* ${wib2} WIB
-┃✾ *Tanggal Islam:* %dateIslamic
-┗━ꕥ
-┏━ꕥ〔 *llı INFO ıll* 〕ꕥ━⬣
-┃✾ *Nama Bot:* %me
-┃✾ *Mode:* Public
-┃✾ *Platform:* Linux
-┃✾ *Type:* Node.Js
-┃✾ *Baileys:* Multi Device
-┃✾ *Uptime:* %muptime
-┃✾ *Database:* %rtotalreg dari %totalreg
-┗━ꕥ
-┏━ꕥ〔 *llı INFO COMMAND ıll* 〕ꕥ━⬣
-┃✾ *🅟* = Premium
-┃✾ *🅛* = Limit
-┗━ꕥ
+  before: `╭───ꕥ〔 *llı INFO USER ıll* 〕ꕥ─⬣ 
+│• *Nama:* %name
+│• *Tag:* %name
+│• *Status:* %prems
+│• *Limit:* %limit
+│• *Role:* %role
+│• *Level:* %level [ %xp4levelup Xp For Levelup]
+│• *Xp:* %exp / %maxexp
+│• *Total Xp:* %totalexp
+╰─⳹
+
+╭─ꕥ〔 *llı TODAY ıll* 〕ꕥ─⬣
+│• *Hari:* %week %weton
+│• *Tanggal:* %date
+│• *Jam:* ${wib2} WIB
+│• *Tanggal Islam:* %dateIslamic
+╰─⳹
+
+╭─ꕥ〔 *llı INFO ıll* 〕ꕥ─⬣
+│• *Nama Bot:* %me
+│• *Mode:* Public
+│• *Platform:* Linux
+│• *Type:* Node.Js
+│• *Baileys:* Multi Device
+│• *Uptime:* %muptime
+│• *Database:* %rtotalreg dari %totalreg
+╰─⳹
+
+╭─ꕥ〔 *llı INFO COMMAND ıll* 〕ꕥ─⬣
+│• *🅟* = Premium
+│• *🅛* = Limit
+╰─⳹
+
 %readmore`.trimStart(),
-  header: '┏━━━ꕥ〔 *%category* 〕ꕥ━⬣',
-    body: '┃✾ %cmd %islimit %isPremium',
-  footer: '┗━━━━━━━━━ꕥ\n',
-  after: `  ${'✧\n┏━📮 *Note* :\n┃ 𝙹𝙸𝙺𝙰 𝙼𝙴𝙻𝙰𝙽𝙶𝙶𝙰𝚁 𝚃𝙾𝚂 𝙰𝙺𝙰𝙽 𝙳𝙸 𝙱𝙰𝙽 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽! ^_^\n┗━━━━━━━━━━━━━━━━━━━ꕥ'}`,
+  header: '╭───ꕥ〔 *%category* 〕ꕥ─⬣',
+    body: '│• %cmd %islimit %isPremium',
+  footer: '╰─────────⳹\n',
+  after: `  ${'✧\n╭─📮 *Note* :\n│ 𝙹𝙸𝙺𝙰 𝙼𝙴𝙻𝙰𝙽𝙶𝙶𝙰𝚁 𝚃𝙾𝚂 𝙰𝙺𝙰𝙽 𝙳𝙸 𝙱𝙰𝙽 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽! ^_^\n╰───────────────────⳹
+'}`,
 }
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
   try {
@@ -189,16 +194,16 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
       [`۪۪ᴀᴜᴛʜᴏʀ ʙᴏᴛ`, `${usedPrefix}owner`]
     ], m, { 'document':{'url':'https://bit.ly/3eggcxd'},
 'mimetype':global.dpdf,
-'fileName':'「 RullBOT 」',
+'fileName':'「 HinataBot 」',
 'fileLength':fsizedoc,
 'pageCount':fpagedoc,
 'previewType':'pdf',
 contextInfo: { externalAdReply :{ showAdAttribution: true,
                         sourceUrl: 'https://bit.ly/3eggcxd',
                         mediaType: 2,
-                        description: `⚘ Kreator Khrl✓`,
+                        description: `⚘ Kreator Wudysoft✓`,
                         title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ by khrl`,          previewType: 0,
+                        body: `⚘ by Wudysoft`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
                         mediaUrl: 'https://bit.ly/3eggcxd'
                         

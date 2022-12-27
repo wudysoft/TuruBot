@@ -80,8 +80,6 @@ const listMessage = {
 │▸ *ᴀɢᴇ:* ${age} ʏᴇᴀʀs
 │▸ *sɴ:* ${sn}
 ╰═┅═━––––––๑
-
-ꜱᴜʙꜱᴄʀɪʙᴇ ʏᴛ: RullZY
 `
   let buttonMessage= {
 'document':{'url':'https://youtube.com/channel/UC1oSMQCd3XKVxYwSh4RE2Nw'},
