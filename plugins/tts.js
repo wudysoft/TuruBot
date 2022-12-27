@@ -23,7 +23,7 @@ let name = await conn.getName(who)
     if (!text) throw `Use example ${usedPrefix}${command} en hello world`
     res = await tts(text, defaultLang)
   } finally {
-    if (res) await conn.sendFile(m.chat, res, '', '', fakes, null, adReply)
+    if (res) await conn.sendFile(m.chat, res, '', '', m, null, null)
   }
 }
 handler.help = ['tts <lang> <teks>']
